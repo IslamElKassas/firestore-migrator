@@ -1,0 +1,45 @@
+----start of file-----
+Islam El Kassas
+19 Feb 2020
+How to use firestore migrator
+install - build - run - import - export
+https://github.com/codediodeio/firestore-migrator
+----------------
+Al Salam Alikom
+
+download last version of firestore migrator script from this link:
+https://github.com/codediodeio/firestore-migrator
+
+extract project and open with vs code
+
+go to this link:
+https://console.firebase.google.com/project/<project_Id ex. test-76f4d>/settings/serviceaccounts/adminsdk
+
+Press button: Generate new private key
+
+save downloaded JSON file in your script root with name credentials.json
+
+open terminal
+
+npm install
+
+npm update
+
+npm run build
+
+npm run build-link
+
+now you are done !
+
+----------------
+
+to import files, simply push the target file in you script root folder
+
+and run your migration code
+
+----------------
+
+to see all examples and options, please open this page:
+https://github.com/codediodeio/firestore-migrator
+
+----end of file-----
